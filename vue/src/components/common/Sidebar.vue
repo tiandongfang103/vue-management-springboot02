@@ -62,6 +62,45 @@ export default {
                     title: '系统首页'
                 },
                 {
+                    icon: 'el-icon-lx-calendar',
+                    index: '51',
+                    title: '系统管理',
+                    subs: [
+                        {
+                            index: 'user',
+                            title: '用户管理'
+                        },
+                        {
+                            index: 'role',
+                            title: '角色管理'
+                        },
+                        {
+                            index: 'permission',
+                            title: '权限管理'
+                        }
+                    ]
+                },
+                {
+                    icon: 'el-icon-lx-calendar',
+                    index: '3',
+                    title: '行政管理',
+                    subs: [
+                        {
+                            index: 'department',
+                            title: '部门管理'
+                        },
+                        {
+                            index: 'position',
+                            title: '职位管理'
+                        }
+                    ]
+                },
+                {
+                    icon: 'el-icon-lx-cascades',
+                    index: 'table',
+                    title: '日志管理'
+                },
+                {
                     icon: 'el-icon-lx-cascades',
                     index: 'table',
                     title: '基础表格'
