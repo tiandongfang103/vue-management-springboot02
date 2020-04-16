@@ -107,7 +107,7 @@ export default new Router({
                 },
                 {
                     // 权限页面
-                    path: '/permission',
+                    path: '/permission1',
                     component: () => import( /* webpackChunkName: "permission" */ '../components/page/Permission.vue'),
                     meta: {
                         title: '权限测试',
@@ -137,35 +137,35 @@ export default new Router({
                 },
                 {
                     path: '/user',
-                    component: () => import( /* webpackChunkName: "donate" */ '../components/page/user.vue'),
+                    component: () => import( /* webpackChunkName: "donate" */ '../components/page/User.vue'),
                     meta: {
                         title: '用户管理'
                     }
                 },
                 {
-                    path: '/permission',
-                    component: () => import( /* webpackChunkName: "donate" */ '../components/page/BaseTable.vue'),
+                    path: '/role',
+                    component: () => import( /* webpackChunkName: "donate" */ '../components/page/Donate.vue'),
                     meta: {
                         title: '角色管理'
                     }
                 },
                 {
                     path: '/permission',
-                    component: () => import( /* webpackChunkName: "donate" */ '../components/page/BaseTable.vue'),
+                    component: () => import( /* webpackChunkName: "donate" */ '../components/page/Donate.vue'),
                     meta: {
                         title: '权限管理'
                     }
                 },
                 {
                     path: '/department',
-                    component: () => import( /* webpackChunkName: "donate" */ '../components/page/BaseTable.vue'),
+                    component: () => import( /* webpackChunkName: "donate" */ '../components/page/Donate.vue'),
                     meta: {
                         title: '部门管理'
                     }
                 },
                 {
                     path: '/position',
-                    component: () => import( /* webpackChunkName: "donate" */ '../components/page/BaseTable.vue'),
+                    component: () => import( /* webpackChunkName: "donate" */ '../components/page/Donate.vue'),
                     meta: {
                         title: '职位管理'
                     }
@@ -174,7 +174,7 @@ export default new Router({
                     path: '/log',
                     component: () => import( /* webpackChunkName: "donate" */ '../components/page/Donate.vue'),
                     meta: {
-                        title: '日志管理'
+                        title: '日志'
                     }
                 }
             ]
